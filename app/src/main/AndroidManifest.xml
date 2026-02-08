@@ -18,10 +18,11 @@
         android:theme="@style/Theme.Convertly"
         tools:targetApi="34">
 
-        <!-- AdMob App ID - Replace with your actual AdMob App ID before publishing -->
+        <!-- AdMob App ID - Using Google's official test App ID for development -->
+        <!-- REPLACE with your real AdMob App ID before publishing to Play Store -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY" />
+            android:value="ca-app-pub-3940256099942544~3347511713" />
 
         <activity
             android:name=".MainActivity"
