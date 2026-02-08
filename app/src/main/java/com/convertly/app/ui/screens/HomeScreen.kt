@@ -26,7 +26,7 @@ import com.convertly.app.ui.components.AdBanner
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(
-    viewModel: MainViewModel,
+    @Suppress("UNUSED_PARAMETER") viewModel: MainViewModel,
     showAds: Boolean,
     onCategorySelected: (UnitCategory) -> Unit,
     onSettingsClick: () -> Unit,

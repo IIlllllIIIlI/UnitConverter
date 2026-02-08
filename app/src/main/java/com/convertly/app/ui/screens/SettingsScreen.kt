@@ -153,6 +153,7 @@ fun SettingsScreen(
                 }
             }
 
+            @Suppress("DEPRECATION")
             Divider(modifier = Modifier.padding(horizontal = 16.dp))
 
             // ===== CONVERSION =====
@@ -194,6 +195,7 @@ fun SettingsScreen(
                 onCheckedChange = { viewModel.setThousandSeparator(it) }
             )
 
+            @Suppress("DEPRECATION")
             Divider(modifier = Modifier.padding(horizontal = 16.dp))
 
             // ===== FEEDBACK =====
@@ -215,6 +217,7 @@ fun SettingsScreen(
                 onCheckedChange = { viewModel.setSoundEffects(it) }
             )
 
+            @Suppress("DEPRECATION")
             Divider(modifier = Modifier.padding(horizontal = 16.dp))
 
             // ===== PREMIUM =====
@@ -308,6 +311,7 @@ fun SettingsScreen(
                 }
             )
 
+            @Suppress("DEPRECATION")
             Divider(modifier = Modifier.padding(horizontal = 16.dp))
 
             // ===== ABOUT =====
