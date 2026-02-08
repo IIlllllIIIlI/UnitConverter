@@ -153,7 +153,7 @@ fun SettingsScreen(
                 }
             }
 
-            HorizontalDivider(modifier = Modifier.padding(horizontal = 16.dp))
+            Divider(modifier = Modifier.padding(horizontal = 16.dp))
 
             // ===== CONVERSION =====
             SettingsSectionHeader("Conversion")
@@ -194,7 +194,7 @@ fun SettingsScreen(
                 onCheckedChange = { viewModel.setThousandSeparator(it) }
             )
 
-            HorizontalDivider(modifier = Modifier.padding(horizontal = 16.dp))
+            Divider(modifier = Modifier.padding(horizontal = 16.dp))
 
             // ===== FEEDBACK =====
             SettingsSectionHeader("Feedback")
@@ -215,7 +215,7 @@ fun SettingsScreen(
                 onCheckedChange = { viewModel.setSoundEffects(it) }
             )
 
-            HorizontalDivider(modifier = Modifier.padding(horizontal = 16.dp))
+            Divider(modifier = Modifier.padding(horizontal = 16.dp))
 
             // ===== PREMIUM =====
             SettingsSectionHeader("Premium")
@@ -308,7 +308,7 @@ fun SettingsScreen(
                 }
             )
 
-            HorizontalDivider(modifier = Modifier.padding(horizontal = 16.dp))
+            Divider(modifier = Modifier.padding(horizontal = 16.dp))
 
             // ===== ABOUT =====
             SettingsSectionHeader("About")
